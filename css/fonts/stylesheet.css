@@ -13,9 +13,8 @@
 }
 
 @font-face {
-  font-family: "PanamaDemo-Regular";
-  src: url("PanamaDemoRegular.woff2") format("woff2");
+  font-family: "Panama-Regular";
+  src: url("PanamaRegular.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
-
