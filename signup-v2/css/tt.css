@@ -149,9 +149,15 @@ h1.join-us-desktop a:hover {
   	color: transparent;
 }
 
+.home-copy-left-thankyou {
+	margin: 200px 0;
+}
+
 .signup-header {
 	margin:90px 0px 0px 0px;
-
+	font-family: 'DrukWide-Bold';
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .signup {
