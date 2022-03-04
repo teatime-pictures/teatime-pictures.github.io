@@ -1,0 +1,378 @@
+﻿/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../img/preload.gif');
+   background-repeat: no-repeat; 
+   background-color: #EBE5F0;
+   background-position: center;
+}
+
+body {
+    font-family: "TeXGyreHerosCondensed-Regular", sans-serif;
+    margin: 0;
+    font-weight: normal;
+	background: #000;
+	color: #FF4848;
+}
+
+
+hr.hr-white {
+	border:1px #fff solid;
+	margin: 0;
+}
+
+hr.hr-black {
+	border:1px #000 solid;
+	margin: 0;
+}
+
+.empty p {
+	visibility:hidden;
+}
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
+	font-size: 22px; 
+    line-height: 30px;
+	font-weight: 300;
+	letter-spacing:1px;
+	text-align: center;  
+}
+
+h1.grey {
+		color: #EBE5F0;
+}
+
+h1.left {
+	text-align: left;
+}
+
+h1 span {
+  	font-family: "Panama-Regular", serif; 
+	font-weight: normal;
+	letter-spacing:-0.5px;
+}
+
+h1 span.teatime {
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 22px; 
+    line-height: 18px;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+
+
+
+
+.tt-content {
+	height: 100vh;
+}
+
+.home-copy-space {
+	height: 82vh;
+}
+
+.home-copy-top {
+    margin-bottom: -20px;
+}
+
+.home-copy-blur {
+    background-image: url("../img/bg_fade.png");
+    background-repeat: repeat-x;
+    height: 42px;
+	z-index:1;
+	position:relative;
+}
+
+.home-copy-bottom {
+	background: #EBE5F0;
+	z-index:2;
+	position:relative;
+}
+
+h1.join-us {
+	display:block;
+	margin-top:10px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+}
+
+h1.join-us-desktop {
+	display:block;
+	margin-top:18px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+}
+
+
+h1.join-us-mobile {
+	display:none;
+	margin-top:10px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+}
+
+
+h1.join-us-desktop a:hover {
+	text-decoration-line: underline;
+	text-decoration-color:#FF4848;
+}
+
+
+.home-copy-left {
+	margin: 110px 0px 0px 0px;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+.signup-header {
+	margin:90px 0px 0px 0px;
+
+}
+
+.signup {
+	margin:0px 0px 90px 0px;
+}
+
+
+a.teatime-insta {
+  position: relative;
+  display: block;
+  margin: 0 auto;	
+  width:440px;
+} 
+
+.teatime-insta-fill {
+	height:90px;
+	width:440px;
+}
+
+img.teatime-insta-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:90px;
+  width:440px;
+} 
+
+a.teatime-insta .teatime-insta-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;  
+	height:90px;
+    width:440px;
+}
+ 
+a.teatime-insta:hover .teatime-insta-hover {
+       display: inline;
+}
+
+
+a.para-link:hover {
+   
+	text-decoration-line: underline;
+	text-decoration-color:#FF4848;
+}
+
+
+.footer-desktop {
+	display:block;
+}
+
+.footer-mobile {
+	display:none;
+}
+
+.footer-desktop h1 {
+	margin-bottom:50px;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+	font-size:16px;
+
+}
+
+.footer-mobile h1 {
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+	font-size:16px;
+}
+
+
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+
+video { 
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background-image: url('../img/poster.jpg') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+
+
+
+/*************************************************************************************************************
+EMAIL
+*************************************************************************************************************/
+
+#email{
+	/*z-index: 999;*/
+	margin-top:-8px;
+}
+
+#email #mc_embed_signup {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 340px;
+}
+
+#mc_embed_signup{
+	clear:left; 
+	width:100%;
+}
+
+.newsletter #mce-EMAIL {
+    width: 290px;
+    border-bottom: 1.5px solid #FF4848;
+    line-height: 2;
+}
+
+.newsletter input {
+    position: relative;
+    float: left;
+    outline: 0;
+    border-radius: 0;
+    font-family: "TeXGyreHerosCondensed-Regular", serif;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background: none;
+    border: 0;
+    line-height: 0;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+.newsletter #mc-embedded-subscribe {
+    width: 40px;
+    height: 40px;
+   	background-image: url('../img/arrow.gif');
+    background-repeat: no-repeat; 
+    background-position: center;
+	background-color:transparent;
+	background-size:32px;
+	/*border-bottom: 1.5px solid #FF4848;*/
+	margin: 10px 0 0 -10px;
+}
+
+.newsletter .button {
+	border:none;
+}
+
+::-webkit-input-placeholder {
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+
+/*************************************************************************************************************
+SHOP
+*************************************************************************************************************/
+
+.circle-blur {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #EBE5F0;
+  position: fixed;
+  top:20px;
+  right:20px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.circle h1 {
+	display: block;
+	margin-top: 34px!important;
+	background-image: url(../img/bg3.gif);
+    background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 12px; 
+    line-height: 12px;
+	letter-spacing:1px;
+	font-weight: normal;
+	text-align:center;
+
+}
+
+.circle {
+  z-index:999;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  top:20px;
+  right:20px;
+}
+
+
+
+
+
