@@ -44,7 +44,7 @@ h1 - h6 - p
 
 h1 {
   	font-family: "TeXGyreHerosCondensed-Regular", serif; 
-	font-size: 24px; 
+	font-size: 22px; 
     line-height: 30px;
 	font-weight: 300;
 	letter-spacing:1px;
@@ -81,7 +81,7 @@ h1 span.teatime {
 }
 
 .home-copy-space {
-	height: 83vh;
+	height: 82vh;
 }
 
 .home-copy-top {
@@ -102,7 +102,7 @@ h1 span.teatime {
 	position:relative;
 }
 
-h1.join-us-desktop {
+h1.join-us {
 	display:block;
 	margin-top:10px!important;
     background-image: url("../img/bg3.gif");
@@ -111,6 +111,17 @@ h1.join-us-desktop {
  	 -webkit-background-clip: text;
   	color: transparent;
 }
+
+h1.join-us-desktop {
+	display:block;
+	margin-top:18px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+}
+
 
 h1.join-us-mobile {
 	display:none;
@@ -128,13 +139,29 @@ h1.join-us-desktop a:hover {
 	text-decoration-color:#FF4848;
 }
 
+
 .home-copy-left {
-	margin: 190px 0;
+	margin: 110px 0px 0px 0px;
     background-image: url("../img/bg3.gif");
 	background-size:cover;
 	background-clip: text;
  	-webkit-background-clip: text;
   	color: transparent;
+}
+
+.home-copy-left-thankyou {
+	margin: 200px 0;
+}
+
+.signup-header {
+	margin:90px 0px 0px 0px;
+	font-family: 'DrukWide-Bold';
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.signup {
+	margin:0px 0px 90px 0px;
 }
 
 
@@ -231,6 +258,153 @@ video {
   	transition: 1s opacity;
 }
 
+
+
+/*************************************************************************************************************
+EMAIL
+*************************************************************************************************************/
+
+#email{
+	/*z-index: 999;*/
+	margin-top:-8px;
+}
+
+#email #mc_embed_signup {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 340px;
+}
+
+#mc_embed_signup{
+	clear:left; 
+	width:100%;
+}
+
+.newsletter #mce-EMAIL {
+    width: 290px;
+    border-bottom: 1.5px solid #FF4848;
+    line-height: 2;
+}
+
+.newsletter input {
+    position: relative;
+    float: left;
+    outline: 0;
+    border-radius: 0;
+    font-family: "TeXGyreHerosCondensed-Regular", serif;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background: none;
+    border: 0;
+    line-height: 0;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+.newsletter #mc-embedded-subscribe {
+    width: 40px;
+    height: 40px;
+   	background-image: url('../img/arrow.gif');
+    background-repeat: no-repeat; 
+    background-position: center;
+	background-color:transparent;
+	background-size:32px;
+	/*border-bottom: 1.5px solid #FF4848;*/
+	margin: 10px 0 0 -10px;
+}
+
+.newsletter .button {
+	border:none;
+}
+
+::-webkit-input-placeholder {
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+/*************************************************************************************************************
+THANK YOU
+*************************************************************************************************************/
+
+.alert_wrap {
+}
+#alert_box {
+  position: fixed;
+  top: 10px;
+  width:100%;
+}
+
+#alert_box h1 {
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 11px; 
+    line-height: 12px;
+	letter-spacing:1px;
+	text-align:center;
+	display: block;
+	margin-top: 46px!important;
+	background-image: url(../img/bg3.gif);
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: #fff;
+	text-transform:uppercase;
+}
+
+
+/*************************************************************************************************************
+SHOP
+*************************************************************************************************************/
+
+.circle-blur {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #EBE5F0;
+  position: fixed;
+  top:20px;
+  right:20px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.circle h1 {
+	display: block;
+	margin-top: 46px!important;
+	background-image: url(../img/bg3.gif);
+    background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 11px; 
+    line-height: 12px;
+	letter-spacing:1px;
+	font-weight: normal;
+	text-align:center;
+
+}
+
+.circle {
+  z-index:999;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: fixed;
+  top:20px;
+  right:20px;
+}
 
 
 
