@@ -27,8 +27,13 @@
 <body>
 
 <div class="preloader"></div>
+<div class="preloader"></div>
 <a href="https://shop.teatime.pictures/"><div class="circle"><h1>SHOPTIME</h1></div></a>
 <div class="circle-blur"></div>
+
+<div id="alert_box" class="alert_wrap">
+	<h1>Thanks for signing up - Teatime Loves you.</p>
+</div>
 
 <div id="video"></div>	
 		
@@ -43,8 +48,8 @@
 					
 		<div class="w3-col l8 s12">
 				
-				<!--<h1 class="grey">Coming Soon &mdash; <span>WATCH THIS SPACE</span></h1>-->
-				<!--<h1 class="grey">Coming Soon</h1>	-->
+				<!--<h1 class="grey">Coming Soon &mdash; <span>WATCH THIS SPACE</span></h1>
+				<h1 class="grey">Coming Soon</h1>	-->
 		</div>
 		
 	</div>
@@ -68,46 +73,21 @@
 					<a href="instagram://user?username=teatime.pictures" target="_blank">Join us on <span>INSTAGRAM</span> @teatime.pictures</a>
 				</h1>
 				
-			
-				
 						
-				<div class="home-copy-left">
+				<div class="home-copy-left-thankyou">
 					<h1 class="left">
 						Film, television, literature, art and music are points of entry to other worlds and other hearts. Entertainment is polyphonic; it should be read, watched and listened to.
 					
 					<br/><br/>
 						Founded by <span>Dakota Johnson</span> and <span>Ro Donnelly</span>, <span class="teatime">TEATIME</span> is a production company and curatorial platform that embraces the eternal romance of art as escapism.
+						
+						
 					</h1>
 					
-					<h1 class="signup-header">ConnectionTime</h1>
 					
 				</div>
 				
-				<div class="signup">
-						
-				<h1 class="join-us">
-					<div id="email">
-					<div id="mc_embed_signup" class="newsletter">
-
-					          <form action="https://pictures.us5.list-manage.com/subscribe/post?u=32e60b9156380e049c8edf37c&amp;id=a3093058c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-          
-					            <div id="mce-responses" class="clear">
-					              <div class="response" id="mce-error-response" style="display:none"></div>
-					              <div class="response" id="mce-success-response" style="display:none"></div>
-					            </div>  
-
-
-					            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Join email list"> 
-
-					            <input type="text" name="b_32e60b9156380e049c8edf37c_a3093058c9" tabindex="-1" value="" style="display:none">
-
-					            <button type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button"><h4></h4></button>
-
-					          </form>
-					</div>
-					</div>
-				</h1>
-				</div>
+				
 						
 				<div class="footer-desktop">
 					<a class="teatime-insta" href="https://www.instagram.com/teatime.pictures/" target="_blank">
@@ -147,7 +127,15 @@
  		$(window).load(function() {
  		   $('.preloader').fadeOut('slow');
  		});			
-</script> 
+</script>
+		
+<script>		
+	setTimeout(fade_out, 10000);
+
+	function fade_out() {
+	  $("#alert_box").fadeOut().empty();
+	}
+</script>
 		
 <script>
     //get screen width and pixel ratio
