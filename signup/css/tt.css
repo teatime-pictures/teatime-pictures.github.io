@@ -141,12 +141,27 @@ h1.join-us-desktop a:hover {
 
 
 .home-copy-left {
-	margin: 190px 0;
+	margin: 110px 0px 0px 0px;
     background-image: url("../img/bg3.gif");
 	background-size:cover;
 	background-clip: text;
  	-webkit-background-clip: text;
   	color: transparent;
+}
+
+.home-copy-left-thankyou {
+	margin: 200px 0;
+}
+
+.signup-header {
+	margin:90px 0px 0px 0px;
+	font-family: 'DrukWide-Bold';
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.signup {
+	margin:0px 0px 90px 0px;
 }
 
 
@@ -250,7 +265,7 @@ EMAIL
 *************************************************************************************************************/
 
 #email{
-	z-index: 999;
+	/*z-index: 999;*/
 	margin-top:-8px;
 }
 
@@ -271,7 +286,6 @@ EMAIL
     width: 290px;
     border-bottom: 1.5px solid #FF4848;
     line-height: 2;
-	
 }
 
 .newsletter input {
@@ -315,6 +329,81 @@ EMAIL
 	background-clip: text;
  	-webkit-background-clip: text;
   	color: transparent;
+}
+
+/*************************************************************************************************************
+THANK YOU
+*************************************************************************************************************/
+
+.alert_wrap {
+}
+#alert_box {
+  position: fixed;
+  top: 10px;
+  width:100%;
+}
+
+#alert_box h1 {
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 11px; 
+    line-height: 12px;
+	letter-spacing:1px;
+	text-align:center;
+	display: block;
+	margin-top: 46px!important;
+	background-image: url(../img/bg3.gif);
+	background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: #fff;
+	text-transform:uppercase;
+}
+
+
+/*************************************************************************************************************
+SHOP
+*************************************************************************************************************/
+
+.circle-blur {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #EBE5F0;
+  position: fixed;
+  top:20px;
+  right:20px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.circle h1 {
+	display: block;
+	margin-top: 46px!important;
+	background-image: url(../img/bg3.gif);
+    background-size: cover;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 11px; 
+    line-height: 12px;
+	letter-spacing:1px;
+	font-weight: normal;
+	text-align:center;
+
+}
+
+.circle {
+  z-index:999;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: fixed;
+  top:20px;
+  right:20px;
 }
 
 
